@@ -127,3 +127,33 @@ p{
 }
 
 /* Content */
+.content{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.content-melly{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    gap: 16px;
+    border: #3882F6;
+    border: 20px;
+}
+
+.content-melly img{
+    width: 200px;
+    border-radius: 8px;
+    outline: 4px solid #3882F6;
+}
+
+.content-melly p{
+    text-align: center;
+    font-family: Roboto;
+    color: #1F2937;
+    font-size: 16px;
+    
+}
+
