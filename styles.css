@@ -76,6 +76,7 @@ p{
     display: flex;
     justify-content: center;
     padding-top: 48px;
+    padding-bottom: 16px;
 }
 
 .description-melly{
@@ -104,6 +105,7 @@ p{
     background-color: #3882F6;
     color: #F9FAF8 ;
     font-weight: 700;
+    border: 0;
 }
 
 .description img{
@@ -184,4 +186,51 @@ p{
     color: #1F2937;
     font-weight: 300;
     text-align: end;
+}
+
+/* Banner (love for melly) */
+
+.love-for-melly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.banner{
+    background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    padding: 12px;
+    justify-content: space-around;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-radius: 32px;
+}
+
+
+
+.show-love-button{
+    background-color: #3882F6;
+    border: 0;
+    outline: 2px solid white;
+    border-radius: 12px;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+}
+
+.big-love{
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+.small-love{
+    font-size: 14px;
+    font-family: Roboto;
 }
