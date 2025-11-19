@@ -33,7 +33,7 @@ p{
     margin: 0px;
 }
 
-.header, .description{
+.header, .description, .footer{
     padding: 8px;
     background-color: #1F2937;
     display: flex;
@@ -233,4 +233,16 @@ p{
 .small-love{
     font-size: 14px;
     font-family: Roboto;
+}
+
+/* Footer */
+.footer{
+    justify-content: center;
+    padding: 32px;
+
+}
+
+.footer p{
+    font-family: Roboto;
+    font-weight: 700;
 }
