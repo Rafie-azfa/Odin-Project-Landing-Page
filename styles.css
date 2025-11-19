@@ -157,3 +157,31 @@ p{
     
 }
 
+/* Insipiring quote: */
+
+.inspiring-quote{
+    display: flex;
+    margin-top: 148px;
+    justify-content: center;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote{
+    max-width: 600px;
+    padding: 48px;
+    padding-top: 88px;
+}
+
+.big-quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author-quote{
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: end;
+}
